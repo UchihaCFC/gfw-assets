@@ -12,9 +12,12 @@ install:
 script:
   - npm test
   - npm run build
+after_script:
+  - upload_to_amazon.sh
 branches:
   only:
   - master
+  - hook
 env:
   global:
     - secure: jLXRERImdoxv0yr/Pro4cUtZ+1RrWfIBnydX/xsXDTJWHak0r4t11SxRquygWLVZujnFfV0RDKZDh1Wd8PIZ3FyrLQrkWAEZaMjcbDnYiWKzT5OR0JV/II7A+0SPgL3ni9XKDpFW6XGqaFvuefBOoEad8zNc3OOu4rk1PguFibZ6rRi8xaf2IYOpQbursZQYhs4hQZOmHQfOHpmQt+H0UQ8l3z3HSqErT1eyKxLJ9ew04CseJhlNcvdmRCFBMhuWPfGF+MELXD/TTRC+aX4sJO6kzQDE5Vpn70Ev9U1tnB4pYjkBvXy1Bf1r+YfaJVkCbCAG54tFg0iZBbEDTHln+RaZHFMJdBl0aC5vOcPaFVEtbmmByZFEZZhpWmvuRbOTQ8JQKZIJ9j53QRVhnyKYnkcoh9kJRqV8GZseqI2Dl4B6fwNKpfcVFUigLvCMYkFU76JYm9EyT5gi9pmU1EpiTYCuahFwESy62+krtZjiQ++n2D+ncPwQ1wG/RiBmsJTQ2mQJCRM+KUPveqfznJv3dXR+McrDbFEVSbS+LjHp5wD71ItAspz3QZCONGnL+st6WEKkCCC0xYkCT0Bhf/EGChiSOI9fVVkdKSYXyn5+AIEREYKfomEjUS5V7RTgwCUQTfUnEe9zCQkXx//sdv1zReC74IAmj+TzKn4uqi6dHZo=
