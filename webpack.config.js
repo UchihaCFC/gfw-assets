@@ -3,7 +3,7 @@
 var webpack = require('webpack');
 var autoprefixer = require('autoprefixer');
 var path = require('path');
-var version = process.env.VERSION || 'latest';
+var version = process.env.VERSION || 'hook';
 var S3Plugin = require('webpack-s3-plugin');
 
 var prodPlugins = [
