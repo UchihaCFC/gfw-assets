@@ -18,11 +18,19 @@
         <div id="transifexTranslateElement" class="m-transifex"></div>
       </li>
       <!-- // translation // -->
-      <li class="m-header-item -default shape-search">
+      <li id="headerSearchBox" class="m-header-item -default -search shape-search">
         <a class="btn-search" href="#">
           <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-search"></use></svg>
           <span>Search</span>            
         </a>
+        <!-- SEARCH -->
+        <div class="m-search">
+          <form action="http://www.globalforestwatch.org/search">
+            <button type="submit"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-search"></use></svg></button>
+            <input type="text" name="query" id="search-input" placeholder="Search GFW website">
+            <button class="btn-search -close" type="button"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-close"></use></svg></button>
+          </form>
+        </div>        
       </li>
       <li class="m-header-item -default shape-howto">
         <a href="/howto">
@@ -144,17 +152,6 @@
         </div>
       </div>
     </div>      
-
-
-
-    <!-- SEARCH -->
-    <div class="m-search">
-      <form action="http://www.globalforestwatch.org/search">
-        <button type="submit"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-search"></use></svg></button>
-        <input type="text" name="query" id="search-input" placeholder="Search GFW website">
-        <button class="btn-search -close" type="button"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-close"></use></svg></button>
-      </form>
-    </div>
 
     <ul class="m-header-nav -mobile">
       <li class="m-header-item -default shape-menu">

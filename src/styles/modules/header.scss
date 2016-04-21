@@ -282,9 +282,13 @@
 
     // Search items
     &.-search {
-      margin: 0 0 0 20px;
+      transition: $transition2;
+      
+      &.-active {
+        width: 250px;
+      }
     }
-
+    
     // HOVERS
     @media (min-width: $br-mobile){
       &:hover, &.-current  {

@@ -64,6 +64,7 @@ class Header {
     this.$linksSubmenu = this.$header.find('a');
 
     // Search
+    this.$headerSearchBox = this.$header.find('#headerSearchBox');
     this.$headerSearch = this.$header.find('.m-search');
     this.$headerSearchInput = this.$header.find('#search-input');
   };
@@ -146,6 +147,7 @@ class Header {
     this.$headerSearch.toggleClass('-active');
 
     if(this.$headerSearch.hasClass('-active')) {
+      this.$headerSearchBox.addClass('-active');
       // Key bindings
       this.$document.on('keyup.search', e => {
         if (e.keyCode === 27) {
@@ -157,6 +159,7 @@ class Header {
         document.getElementById(this.$headerSearchInput[0].id).focus();
       }.bind(this),250)
     } else {
+      this.$headerSearchBox.removeClass('-active');
       // Key unbindings
       this.$document.off('keyup.search');
     }
