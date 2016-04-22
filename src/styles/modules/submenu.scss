@@ -60,6 +60,8 @@
       }
 
       @media (max-width: $br-mobile - 1){
+        display: none;
+
         &.-active {
           position: fixed;
           top: auto;
@@ -67,7 +69,8 @@
           left: 0;
           height: 100%;
           max-height: calc(100% - 50px);
-
+          display: block;
+          
           &:after {
             display: none;
           }
