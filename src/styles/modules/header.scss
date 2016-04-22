@@ -47,7 +47,6 @@
       bottom: 0;
       right: 0;
       z-index: 2;
-      background: #DDD;
 
       @media (min-width: $br-mobile){
         display: none;
@@ -142,9 +141,9 @@
         &.-active {
           // background: $white;
           z-index: 5;
+          background: $dark1;
           @media (min-width: $br-mobile){
             z-index: 3;
-            background: $dark1;
           }
         }
 

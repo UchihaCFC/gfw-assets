@@ -160,7 +160,7 @@
       <li class="m-header-item -default shape-menu">
         <a id="btnSubmenuMenuMobile" data-submenu="#submenuMenuMobile" class="m-header-submenu-btn" href="/">
           <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-menu"></use></svg>
-          <!-- <svg class="-inactive -desktop-hide"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-close"></use></svg> -->
+          <svg class="-inactive -desktop-hide"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-close"></use></svg>
           <span>Menu</span>
         </a>
         <!-- HOME SUBMENU -->
