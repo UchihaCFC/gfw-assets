@@ -32,8 +32,9 @@ class Header {
 
     this.initHighlightCurrent();
     this.initListeners();
-    // this.initTranslate();
-    this.initTransifex();
+
+    this.initTranslate();
+    
     this.initLinksUrls();
     this.initMyGFW();
     this.initNavigation();
@@ -167,6 +168,14 @@ class Header {
    * Google translate
    */
   initTranslate() {
+    if (!!window.liveSettings) {
+      this.initTransifex();
+    } else {
+      this.initGoogleTranslate();  
+    }
+  };
+
+  initGoogleTranslate() {
     setTimeout(() => {
       window['googleTranslateElementInitGFW'] = () => {
         new google.translate.TranslateElement({
@@ -181,13 +190,16 @@ class Header {
       translateScript.type= 'text/javascript';
       translateScript.src = 'http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInitGFW';
       document.head.appendChild(translateScript);
-    }, 0);
-  };
+    }, 0);    
+  }
 
   /**
    * Transifex
    */  
   initTransifex() {
+    var blacklist = [
+      'www.globalforestwatch.org'
+    ];
     // LIVE SETTINGS OPTIONS
     window.liveSettings = {
       picker: '#transifexTranslateElement',
@@ -207,10 +219,16 @@ class Header {
 
     };
 
-    // if (location.hostname.indexOf('www.globalforestwatch.org') == -1){
-    //   var $transifexEl = document.getElementById('transifexTranslateBox');
-    //   $transifexEl.className += " -visible";
-    // }
+    // Check if the location.hostname is in the blacklist
+    // If true hide transifex element, but keep it working to store the string of the page
+    // Then init Google translate plugin
+    if (blacklist.indexOf(location.hostname) != -1){
+      var $transifexEl = $gfwdom('#transifexTranslateElement');
+      $transifexEl.css({
+        display: 'none'
+      });
+      this.initGoogleTranslate();
+    }
 
     setTimeout(() => {
       const translateScript = document.createElement('script');
