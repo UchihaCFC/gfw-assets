@@ -17,10 +17,10 @@
     .goog-te-menu-value {
       color: $light;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 11px;
       line-height: 28px;
       position: relative;
-      padding-right: 16px;
+      padding-right: 20px;
       
       span {
         margin: 0 3px 0 0px;
@@ -31,13 +31,17 @@
         margin: 1px 5px 0;
       }
 
+      span:nth-of-type(2) {
+        display: none;
+      }
+
       span:last-child {
         margin: 0;
         visibility: hidden;
         display: block;
         position: absolute;
         top: 50%;
-        right: 0;
+        right: 5px;
         height: 16px;
         width: 16px;
         transform: translate(0, -55%);
@@ -46,10 +50,13 @@
           content: "";
           visibility: visible;
           display: block;
-          height: 100%;
-          width: 100%;
           background: url(http://www.globalforestwatch.org/assets/svg-icons/arrow-down-white.svg) no-repeat center;
           background-size: contain;
+          height: 12px;
+          width: 12px;
+          position: absolute;
+          top: 50%;
+          margin: -6px 0 0;          
         }
       }
     }
