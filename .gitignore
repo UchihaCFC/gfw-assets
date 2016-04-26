@@ -1,6 +1,7 @@
 .DS_Store
 .gems
 .sass-cache
+.env
 *.log
-/dist/*.html
+/dist
 /node_modules
