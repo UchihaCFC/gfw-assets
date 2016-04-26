@@ -25,7 +25,7 @@ const init = () => {
   new Feedback();	
 }
 
-if(!!document.readyState && document.readyState === "complete") {
+if(!!document.readyState && (document.readyState === "complete" || document.readyState === "interactive")) {
 	init();
 } else {
 	document.addEventListener('DOMContentLoaded', init);
