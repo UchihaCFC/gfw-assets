@@ -5,13 +5,9 @@ install:
   - bundle install
   - npm install
   - npm install --only=dev
-# before_script:
-#   - npm link
-#   - npm link webpack
-#   - npm link karma
 script:
   - npm test
-  - npm run build
+  - npm run publish
 branches:
   only:
   - master
