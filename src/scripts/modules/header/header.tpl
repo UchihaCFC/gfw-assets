@@ -134,11 +134,11 @@
               </li>
             </ul>
             <ul class="more-more-list">
-              <li><a href="#">Receive gfw updates</a></li>
-              <li><a href="#">Small grants fund</a></li>
-              <li><a href="#">Share data</a></li>
-              <li><a href="#">Help improve data</a></li>
-              <li><a href="#">User stories</a></li>
+              <li><a href="/stayinformed/newsletter"><span>Receive gfw updates</span></a></li>
+              <li><a href="/getinvolved/apply-to-the-small-grants-fund"><span>Small grants fund</span></a></li>
+              <li><a href="/getinvolved/share-data"><span>Share data</span></a></li>
+              <li><a href="/getinvolved/help-improve-data"><span>Help improve data</span></a></li>
+              <li><a href="/stayinformed/crowdsourced-stories"><span>User stories</span></a></li>
             </ul>
           </div>
         </div>
