@@ -2,8 +2,10 @@
   <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-mygfw"></use></svg>
   <span>My GFW</span>
 </a>
-<ul class="submenu">
-  <li><a target="_blank" href="/my_gfw/subscriptions">My Subscriptions</a></li>
-  <li><a target="_blank" href="/my_gfw">My Profile</a></li>
-  <li><a target="_blank" href="/user/sign_out" id="my-gfw-sign-out">Log Out</a></li>
-</ul>
+<div class="m-header-submenu -default -right">
+	<ul>
+	  <li><a target="_blank" href="/my_gfw/subscriptions"><span>My Subscriptions</span></a></li>
+	  <li><a target="_blank" href="/my_gfw"><span>My Profile</span></a></li>
+	  <li><a target="_blank" href="/user/sign_out" id="my-gfw-sign-out"><span>Log Out</span></a></li>
+	</ul>
+</div>
