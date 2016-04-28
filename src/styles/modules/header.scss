@@ -1,5 +1,11 @@
 #headerGfw {
   font-family: "Fira GFW Sans", Helvetica, serif;
+  // This fixes the ligatures issue in Chrome and Safari > 9.0
+  -webkit-font-feature-settings: "liga" 0;
+  font-feature-settings: "liga" 0;
+  // This fixes the ligatures issue in Safari
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  
   background: $dark;
   border-bottom: 1px solid $border1;
   -webkit-font-smoothing: antialiased;
