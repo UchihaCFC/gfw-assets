@@ -41,7 +41,7 @@
             <ul>
               <li class="shape-map">
                 <a href="/map">
-                  <div class="app">
+                  <div class="app shape-map">
                     <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-map"></use></svg>
                     <span>Interactive Map</span>
                   </div>
@@ -49,7 +49,7 @@
               </li>
               <li class="shape-countries">
                 <a href="/countries">
-                  <div class="app">
+                  <div class="app shape-countries">
                     <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-countries"></use></svg>
                     <span>Countries</span>
                   </div>
@@ -57,7 +57,7 @@
               </li>
               <li class="shape-fires">
                 <a class="external-link" target="_blank" href="http://fires.globalforestwatch.org/">
-                  <div class="app">
+                  <div class="app shape-fires">
                     <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-fires"></use></svg>
                     <span>Fires</span>
                   </div>
@@ -65,7 +65,7 @@
               </li>
               <li class="shape-commodities">
                 <a class="external-link" target="_blank" href="http://commodities.globalforestwatch.org/">
-                  <div class="app">
+                  <div class="app shape-commodities">
                     <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-commodities"></use></svg>
                     <span>Commodities</span>
                   </div>
@@ -73,7 +73,7 @@
               </li>
               <li class="shape-climate">
                 <a class="external-link" target="_blank" href="http://climate.globalforestwatch.org/">
-                  <div class="app">
+                  <div class="app shape-climate">
                     <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-climate"></use></svg>
                     <span>Climate</span>
                   </div>
@@ -81,7 +81,7 @@
               </li>
               <li class="shape-water">
                 <a class="external-link" target="_blank" href="http://water.globalforestwatch.org/">
-                  <div class="app">
+                  <div class="app shape-water">
                     <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-fires"></use></svg>
                     <span>Water</span>
                   </div>
@@ -89,7 +89,7 @@
               </li>
               <li class="shape-explore">
                 <a href="/explore">
-                  <div class="app">
+                  <div class="app shape-explore">
                     <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-explore"></use></svg>
                     <span>Explore all apps</span>
                   </div>

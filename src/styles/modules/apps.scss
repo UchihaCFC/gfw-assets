@@ -80,7 +80,7 @@
 					  	border: 1px solid $primary-color;
 					  	width: 112px;
 					  	height: 112px;
-							&:hover {
+							&:hover, &.-current {
 								background: $primary-color;
 								svg {
 									fill: $white;
@@ -112,7 +112,7 @@
 	        	.app { 
 	        		border-color: $red;
 	        		@media (min-width: $br-mobile){
-								&:hover {
+								&:hover, &.-current {
 									background: $red;
 								}
 							}
@@ -123,7 +123,7 @@
 	        	.app { 
 	        		border-color: $orange;
 	        		@media (min-width: $br-mobile){
-								&:hover {
+								&:hover, &.-current {
 									background: $orange;
 								}
 							}
@@ -134,7 +134,7 @@
 	        	.app { 
 	        		border-color: $blue;
 	        		@media (min-width: $br-mobile){
-								&:hover {
+								&:hover, &.-current {
 									background: $blue;
 								}
 							}
@@ -145,7 +145,7 @@
 	        	.app { 
 	        		border-color: $bluewater;
 	        		@media (min-width: $br-mobile){
-								&:hover {
+								&:hover, &.-current {
 									background: $bluewater;
 								}
 							}
