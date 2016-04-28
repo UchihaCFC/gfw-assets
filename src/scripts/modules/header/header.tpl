@@ -120,9 +120,6 @@
                 <span>How to</span>
               </a>
             </li>
-            <li class="shape-mygfw" id="my-gfw-container">
-
-            </li>
             <li class="shape-odp">
               <a class="external-link" target="_blank" href="http://data.globalforestwatch.org/">
                 <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-odp"></use></svg>
@@ -140,6 +137,9 @@
                 <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-forum"></use></svg>
                 <span>Join the discussion</span>
               </a>
+            </li>
+            <li class="shape-mygfw" id="my-gfw-container">
+
             </li>
           </ul>
           <ul class="more-more-list">
