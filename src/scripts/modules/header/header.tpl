@@ -10,7 +10,7 @@
           <div id="transifexTranslateElement" class="m-transifex"></div>
         </li>
         <!-- // translation // -->
-        <li class="m-header-item -default shape-search">
+        <li class="m-header-item -default -only-desktop shape-search">
           <a class="btn-search" href="#">
             <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-search"></use></svg>
             <span>Search</span>            
