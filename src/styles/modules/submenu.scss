@@ -48,7 +48,10 @@
 
     &.-more {
       background: $dark1;
-      top: 35px;
+      @media (min-width: $br-mobile){
+        top: 35px;
+      }
+      
 
       &:after {
         display: none;

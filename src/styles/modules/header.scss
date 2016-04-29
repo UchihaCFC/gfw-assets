@@ -226,10 +226,11 @@
           border: none;
           display: flex;
 
-          &.-active {
-            background: $dark1;
-            z-index: 1;
-          }
+        }
+
+        &.-active {
+          background: $dark1;
+          z-index: 1;
         }
 
         // It should act as a name => mobile
