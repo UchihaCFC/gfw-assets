@@ -9,39 +9,6 @@
         </a>
       </li>
     </ul>
-    <ul class="m-header-nav -secondary">
-      <!-- // We need to choose between these two option for translation // -->
-      <li class="m-header-item -translate -only-desktop">
-        <div id="googleTranslate"></div>
-      </li>
-      <li class="m-header-item -translate -only-desktop">
-        <div id="transifexTranslateElement" class="m-transifex"></div>
-      </li>
-      <!-- // translation // -->
-      <li id="headerSearchBox" class="m-header-item -default -search -only-desktop shape-search">
-        <a class="btn-search" href="#">
-          <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-search"></use></svg>
-          <span>Search</span>            
-        </a>
-        <!-- SEARCH -->
-        <div class="m-search">
-          <form action="http://www.globalforestwatch.org/search">
-            <button type="submit"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-search"></use></svg></button>
-            <input type="text" name="query" id="search-input" placeholder="Search GFW website">
-            <button class="btn-search -close" type="button"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-close"></use></svg></button>
-          </form>
-        </div>        
-      </li>
-      <li class="m-header-item -default shape-howto">
-        <a href="/howto">
-          <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-howto"></use></svg>
-          <span>How to</span>            
-        </a>
-      </li>
-      <li class="m-header-item -default shape-mygfw" id="my-gfw-container">
-      </li>
-    </ul>
-
     <!-- APPS -->
     <div id="submenuApps" class="m-apps">
       <div class="m-apps-content">
@@ -152,6 +119,39 @@
         </div>
       </div>
     </div>      
+    <ul class="m-header-nav -secondary">
+      <!-- // We need to choose between these two option for translation // -->
+      <li class="m-header-item -translate -only-desktop">
+        <div id="googleTranslate"></div>
+      </li>
+      <li class="m-header-item -translate -only-desktop">
+        <div id="transifexTranslateElement" class="m-transifex"></div>
+      </li>
+      <!-- // translation // -->
+      <li id="headerSearchBox" class="m-header-item -default -search -only-desktop shape-search">
+        <a class="btn-search" href="#">
+          <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-search"></use></svg>
+          <span>Search</span>            
+        </a>
+        <!-- SEARCH -->
+        <div class="m-search">
+          <form action="http://www.globalforestwatch.org/search">
+            <button type="submit"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-search"></use></svg></button>
+            <input type="text" name="query" id="search-input" placeholder="Search GFW website">
+            <button class="btn-search -close" type="button"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-close"></use></svg></button>
+          </form>
+        </div>        
+      </li>
+      <li class="m-header-item -default shape-howto">
+        <a href="/howto">
+          <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-h-howto"></use></svg>
+          <span>How to</span>            
+        </a>
+      </li>
+      <li class="m-header-item -default shape-mygfw" id="my-gfw-container">
+      </li>
+    </ul>
+
 
     <ul class="m-header-nav -mobile">
       <li class="m-header-item -default shape-menu">
